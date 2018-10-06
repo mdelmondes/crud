@@ -1,0 +1,16 @@
+CREATE DATABASE controle
+
+USE controle
+
+CREATE TABLE `clientes` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `nome` varchar(100) NOT NULL,
+ `cpf_cnpj` varchar(14) NOT NULL,
+ `endereco` varchar(100) NOT NULL,
+ `estado` varchar(100) NOT NULL,
+ `cidade` varchar(100) NOT NULL,
+ `telefone` varchar(14) NOT NULL,
+ `celular` varchar(15) NOT NULL,
+ `divida` varchar(100) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=ut8
